@@ -1,0 +1,9 @@
+This directory contains project images. Please add the following images:
+- ecommerce.jpg
+- healthcare.jpg
+- finance.jpg
+- social.jpg
+- education.jpg
+- iot.jpg
+
+Each image should be approximately 800x600 pixels for optimal display. 
