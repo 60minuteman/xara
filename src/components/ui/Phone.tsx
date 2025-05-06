@@ -11,9 +11,9 @@ const Phone = ({ videoSrc, isLoaded }: PhoneProps) => {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 100 }}
       transition={{ duration: 1, delay: 0.6 }}
-      className="flex justify-center relative -mt-24" // Increased negative margin to move phone up
+      className="flex justify-center relative sm:mt-[40px] mt-[60px]" // Reduced top margin on mobile from 100px to 60px
     >
-      <div className="relative w-[300px] h-[600px] translate-y-[10%]"> {/* Reduced translate percentage to move up */}
+      <div className="relative w-[250px] sm:w-[300px] h-[500px] sm:h-[600px] -mt-[50px] sm:mt-0">
         {/* Phone Frame */}
         <div className="absolute inset-0 bg-black rounded-[50px] shadow-2xl z-10">
           {/* Notch */}
